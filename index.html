@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Alura Challenge - Encriptador | Christian Vilca</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,15 +15,17 @@
       <form action="">
         <label for="input-texto">Solo letras minúsculas, sin acento</label>
         <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
-        <input class="btn" type="submit" value="encriptara!" id="btn-encriptar">
-        <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+        <label id="label-error" class="error invisible">* No se permiten números o signos!</label>
+        <br>
+        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
       </form>
     </section>
   
     <section class="msg box">
       <h2 id="">Mensaje encriptada:</h2>
       <input class="text-input" type="text" id="msg"></input>
-      <input class="btn" type="submit" value="copiar" id="btn-copy">
+      <input class="btn" type="submit" value="Copiar" id="btn-copy">
     </section>
   </main>
 
