@@ -62,3 +62,25 @@ body {
   display: none;
 }
 
+.footer{
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.footer__social{
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+
+.footer__social:hover{
+  color: #167af3;
+}
+
+.footer__copy{
+  margin-top: .5rem;
+}
+
+.footer__social,
+.footer__copy{
+  color: #0A3871;
+}
